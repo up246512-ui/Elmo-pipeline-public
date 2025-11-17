@@ -13,7 +13,8 @@ This repository contains the public version of the Elmo fluorescence-image analy
 The goal is to provide researchers with a fully operational toolkit for image organisation, preprocessing, segmentation, and quantitative analysis of histological fluorescence data.
 
 ## Repository Structure
-'''
+
+```
 Elmo-pipeline-public/
 ├── macro/
 │ ├── Elmo_25_final.ijm
@@ -27,7 +28,7 @@ Elmo-pipeline-public/
 │ ├── sample_dictionary.txt
 │
 └── README.md ← (this main file)
-'''
+```
 
 Each folder contains its own dedicated README explaining usage, requirements, and workflow.
 
