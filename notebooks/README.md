@@ -1,4 +1,4 @@
-# == **Determination of Optical Density from FIJI analysis** ==
+# **Determination of Optical Density from FIJI analysis**
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<YOUR_ORG_OR_USER>/<YOUR_REPO>/blob/main/notebooks/DO_Determination_Elmo.ipynb)
 
