@@ -149,4 +149,4 @@ If you use this macro in your research, please cite:
 
 > Sá, S.I. & Marques, S.I. (2025). *Elmo_25: Automated Fluorescence Image Quantification in Fiji*.
 > Faculdade de Medicina & Faculdade de Farmácia, Universidade do Porto.
-> (File location: https://github.com/up246512-ui/Elmo/blob/main/Elmo_25_final.ijm)
+> (File location: https://github.com/up246512-ui/Elmo-pipeline-public/blob/main/macro/Elmo_25.ijm)
