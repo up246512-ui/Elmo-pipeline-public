@@ -1,8 +1,8 @@
-## **README — Elmo_25 ImageJ/Fiji Macro**
+## **README — ElmFluoLzCount ImageJ/Fiji Macro**
 
 ### **Overview**
 
-**Elmo_25** is an automated ImageJ/Fiji pipeline for the **quantitative analysis of fluorescence microscopy images**.
+**ElmFluoLzCount** is an automated ImageJ/Fiji pipeline for the **quantitative analysis of fluorescence microscopy images**.
 It measures **optical density (OD)**, extracts **intensity-based features**, and performs **nuclear segmentation** using **StarDist (TensorFlow)**.
 
 The macro is designed for datasets organized hierarchically into four folder levels and supports manual ROI definition to exclude artifacts or non-specific labeling.
@@ -23,7 +23,7 @@ Level 4 → Field (individual image files)
 #### **Example:**
 
 ```
-Elmo_10-25/
+ElmFluoLzCount/
  ├── Control/
  │    ├── Rat01/
  │    │    ├── DG/
@@ -147,6 +147,6 @@ Faculdade de Medicina / Faculdade de Farmácia, Universidade do Porto
 
 If you use this macro in your research, please cite:
 
-> Sá, S.I. & Marques, S.I. (2025). *Elmo_25: Automated Fluorescence Image Quantification in Fiji*.
+> Sá, S.I. & Marques, S.I. (2025). *ElmFluoLzCount: Automated Fluorescence Image Quantification in Fiji*.
 > Faculdade de Medicina & Faculdade de Farmácia, Universidade do Porto.
-> (File location: https://github.com/up246512-ui/Elmo-pipeline-public/blob/main/macro/Elmo_25.ijm)
+> (File location: https://github.com/up246512-ui/Elmo-pipeline-public/blob/main/macro/ElmFluoLzCount.ijm)
