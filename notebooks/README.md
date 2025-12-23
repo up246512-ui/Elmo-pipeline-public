@@ -1,6 +1,6 @@
 # **Determination of Optical Density from FIJI analysis**
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<YOUR_ORG_OR_USER>/<YOUR_REPO>/blob/main/notebooks/DO_Determination_Elmo.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<YOUR_ORG_OR_USER>/<YOUR_REPO>/blob/main/notebooks/DO_Determination_ElmFluoLzCount.ipynb)
 
 > TL;DR — Compute optical density (OD) metrics from **FIJI/ImageJ** exports, build a treatment dictionary, and generate summary tables and plots (per tissue/subarea) directly in **Google Colab**.
 
@@ -19,7 +19,7 @@ If you open from GitHub via the Colab badge, you can still access files stored o
 ---
 
 ## Notebook
-- **File:** `notebooks/DO_Determination_Elmo.ipynb`
+- **File:** `notebooks/DO_Determination_ElmFluoLzCount.ipynb`
 - **Main sections:**  
   Dictionary construction and use, How to create the file ("treatment_dict.txt"), How to run, Optic density determination, Prerequisites, How to use, DO and DOpond Visualization, Instructions
 
@@ -31,7 +31,7 @@ If you open from GitHub via the Colab badge, you can still access files stored o
 > If running locally, ensure JupyterLab/Notebook is installed.
 
 ## Run on Google Colab (recommended)
-1. Open the notebook via the badge above, **or** upload `notebooks/DO_Determination_Elmo.ipynb` to your Drive and choose **Open with → Google Colab**.
+1. Open the notebook via the badge above, **or** upload `notebooks/DO_Determination_ElmFluoLzCount.ipynb` to your Drive and choose **Open with → Google Colab**.
 2. (Optional) Mount Drive to read/write files:
    ```python
    from google.colab import drive
@@ -68,7 +68,7 @@ Figures and tables are saved under the working directory in Colab. Examples dete
 ```
 .
 ├── notebooks/
-│   └── DO_Determination_Elmo.ipynb
+│   └── DO_Determination_ElmFluoLzCount.ipynb
 ├── data/                 # (optional) input files if running locally
 ├── outputs/              # generated plots/tables
 └── README.md
