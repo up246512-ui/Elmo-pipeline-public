@@ -150,3 +150,13 @@ If you use this macro in your research, please cite:
 > Sá, S.I. & Marques, S.I. (2025). *ElmFluoLzCount: Automated Fluorescence Image Quantification in Fiji*.
 > Faculdade de Medicina & Faculdade de Farmácia, Universidade do Porto.
 > (File location: https://github.com/up246512-ui/Elmo-pipeline-public/blob/main/macro/ElmFluoLzCount.ijm)
+
+Suport paper:
+
+> Marques, S.I., Carmo, H., Carvalho, F., Silva, J.P., Sá, S.I. (2026).  A semi-automated pipeline integrating
+> ImageJ/Fiji and StarDist for the reproducible quantification of cellular and optical density metrics in
+> immunofluorescence images of brain tissue. Faculdade de Medicina & Faculdade de Farmácia, Universidade do Porto.
+
+
+
+
