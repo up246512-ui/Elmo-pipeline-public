@@ -1,5 +1,5 @@
 // ============================================================
-// Pipeline: Elmo_25 – Automated Fluorescence Image Analysis
+// Pipeline: ElmFluoLzCount – Automated Fluorescence Image Analysis
 // Authors: Susana I. Sá, Sandra I. Marques / FMUP, FFUP
 // Date: 2025-10
 // Version: 7 (Channel workflow, Subarea and Z-stack analysis)
@@ -53,7 +53,7 @@ waitForUser("Folder structure check", "IMPORTANT:\n\n" +
     "Before running this macro, make sure your input directory is correctly structured:\n\n" +
     "Group -> Sample -> Tissue -> Field\n\n" +
     "Example:\n" +
-    "Elmo_Group1/\n" +
+    "ElmFluoLzCount_Group1/\n" +
     " |-- Rat01/\n" +
     " |    |-- CA3/\n" +
     " |    |    |-- field1.tif\n" +
@@ -64,7 +64,7 @@ waitForUser("Folder structure check", "IMPORTANT:\n\n" +
     "The macro will not work if the folder hierarchy is missing.\n" +
     "Please confirm this structure before selecting the input directory.\n"+
     "Press \"Cancel\" if folder structure is not set.\n"+
-    "(For more information see https://github.com/up246512-ui/Elmo/blob/main/README.md)");
+    "(For more information see https://github.com/up246512-ui/ElmFluoLzCount/blob/main/README.md)");
 
 
 run("Set Measurements...", "area mean bounding shape integrated area_fraction display redirect=None decimal=3");
